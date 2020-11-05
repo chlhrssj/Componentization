@@ -1,0 +1,5 @@
+include ':modelBase'
+include ':modelB'
+include ':modelA'
+include ':app'
+rootProject.name = "Componentization"
