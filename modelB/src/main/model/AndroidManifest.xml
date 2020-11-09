@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rssj.modela">
+    package="com.rssj.modelb">
 
-    <application>
-        <activity android:name=".CActivity"></activity>
-        <activity android:name=".MainAActivity"
-            android:launchMode="singleTask">
+    <application
+        android:allowBackup="true"
+        android:label="xxxxx"
+        android:supportsRtl="true"
+        android:theme="@style/ModelTheme">
+        <activity android:name=".MainBActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity android:name=".DActivity" />
+        <activity android:name=".ModelBActivity" />
     </application>
 
 </manifest>
