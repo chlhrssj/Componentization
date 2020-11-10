@@ -1,6 +1,6 @@
-include ':modelother'
-include ':modelBase'
-include ':modelB'
-include ':modelA'
+include ':moduleother'
+include ':moduleBase'
+include ':moduleB'
+include ':moduleA'
 include ':app'
 rootProject.name = "Componentization"
